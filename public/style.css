@@ -1,0 +1,79 @@
+/* Base Theater Background */
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Form Box with Red Glow */
+.form-container {
+    background-color: #222222;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 8px;
+    border-top: 5px solid #e50914; /* Cinema Red */
+    box-shadow: 0 10px 25px rgba(229, 9, 20, 0.25);
+    text-align: center;
+}
+
+/* Gold Title */
+.form-container h1 {
+    color: #f5c518; /* Ticket Gold */
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+/* Dark Input Fields */
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form-container input::placeholder {
+    color: #888;
+}
+
+/* Cinema Red Submit Button */
+.form-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-container button:hover {
+    background-color: #b80710;
+}
+
+/* Bottom Text and Links */
+.form-container p {
+    margin-top: 20px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.form-container a {
+    color: #f5c518;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
